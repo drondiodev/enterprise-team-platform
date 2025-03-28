@@ -71,6 +71,14 @@
         "@typescript-eslint/no-floating-promises": "error",
         "@typescript-eslint/no-misused-promises": "error"
       }
+    },
+    {
+      "files": [".github/workflows/*.{yml,yaml}"],
+      "parser": "yaml-eslint-parser",
+      "rules": {
+        "spaced-comment": "off",
+        "unicorn/filename-case": "off"
+      }
     }
   ]
 }
