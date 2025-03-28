@@ -6,24 +6,40 @@ Le format est basé sur [Keep a Changelog](https://keepachangelog.com/fr/1.0.0/)
 et ce projet adhère à
 [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [0.1.0] - 2024-03-28
+## [Unreleased]
 
-### Initialisation du projet
+### Added
 
-- Création du projet Next.js avec TypeScript
-- Configuration de l'environnement de développement
-- Mise en place des outils de qualité de code :
-  - ESLint
-  - Prettier
-  - Husky
-  - Commitlint
-  - TypeScript
+- Configuration initiale du projet Next.js 14
+- Configuration TypeScript avec règles strictes
+- Configuration ESLint et Prettier
+- Configuration Husky pour les pre-commit hooks
+- Configuration Commitlint pour les messages de commit
+- Structure de base du projet avec dossiers organisés
+- Documentation de base (README.md, CONTRIBUTING.md, CHANGELOG.md, TODO.md)
 
-### Structure du projet
+### Changed
 
-- Organisation initiale des dossiers
-- Configuration de Tailwind CSS
-- Mise en place de la structure de base de l'application
+- Optimisation des règles ESLint pour TypeScript
+- Amélioration de la configuration des imports
+- Mise à jour des dépendances vers les dernières versions stables
+
+### Fixed
+
+- Correction des problèmes de linting dans les fichiers de configuration
+- Correction de l'ordre des imports dans layout.tsx
+
+### Security
+
+- Vérification et mise à jour des dépendances pour la sécurité
+- Configuration des règles de protection des branches
+
+## [0.1.0] - 2024-03-21
+
+### Added
+
+- Initialisation du projet
+- Configuration de base
 
 ## [Non publié]
 
